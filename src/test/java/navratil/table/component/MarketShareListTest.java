@@ -27,7 +27,7 @@ class MarketShareListTest {
                 .filteredBy("Czech Republic", "2010 Q4");
 
         filtered.sortByVendor();
-        assertEquals("ASUS", filtered.getEntries().get(0).getVendor());
+        assertEquals("Acer", filtered.getEntries().get(0).getVendor());
 
         filtered.sortByUnits();
         assertEquals("Apple", filtered.getEntries().get(0).getVendor());
