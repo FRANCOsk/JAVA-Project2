@@ -1,0 +1,16 @@
+# Maven
+/target/
+
+# Legacy compiled output
+navratil.table.component/bin/
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
